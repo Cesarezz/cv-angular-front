@@ -1,6 +1,8 @@
 <p>first works!</p>
 
-<div fxLayout="row" 
+<div fxLayout="row"
+     fxLayout.sm="column"
+     fxLayout.xs="column"
      fxLayoutAlign="center center">
         <app-knowledge-type *ngFor="let knowledgetype of knowLedgeTypes"
                             [knowledgeType]="knowledgetype">
