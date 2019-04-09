@@ -1,0 +1,15 @@
+<mat-card class="knowledge-card"
+        [style.background]="knowledgeType.color">
+    <mat-card-header>
+      <mat-card-title>{{knowledgeType.name}}</mat-card-title>
+      <mat-card-subtitle>{{knowledgeType.description}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p fxLayout="row" fxLayoutAlign="center center">
+        <i class="material-icons list-icons-horizontally"
+            *ngFor="let icon of knowledgeType.icons">
+          {{icon}}
+        </i>
+      </p>
+    </mat-card-content>
+</mat-card>

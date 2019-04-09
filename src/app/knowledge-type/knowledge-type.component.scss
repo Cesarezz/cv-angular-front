@@ -1,0 +1,16 @@
+.knowledge-card{
+
+    //width: calc((100% / 4) - 50px);
+    margin: 10px;
+
+    .knowledge-card-header-image{
+        background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+        background-size: cover;
+    }
+
+    .list-icons-horizontally{
+        margin: 0px 10px;
+    }
+
+}
+
